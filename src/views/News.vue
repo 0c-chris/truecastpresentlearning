@@ -1,4 +1,5 @@
 <template>
+    <SeshInfo />
     <div class="news-wrapper">
         <h3 class="news-title">News</h3>
         <p class="news-content">>. We are still currently under development! Latest updates and progress will be posted here.</p>
@@ -6,8 +7,14 @@
 </template>
 
 <script>
+
+ import SeshInfo from "./SeshCliInfo"
+
  export default {
      name: "News",
+     components: {
+         SeshInfo,
+     }
  }
 </script>
 
@@ -15,7 +22,6 @@
  .news-wrapper {
      position: relative;
      width: 50vw;
-     top: 5vh;
      left: 45vw;
      background-color: black;
      border: 1px solid #4af626;
