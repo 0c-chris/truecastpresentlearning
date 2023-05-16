@@ -38,5 +38,6 @@
 
  .home-content {
      color: #4af626;
+     font-size: 1.15rem;
  }
 </style>

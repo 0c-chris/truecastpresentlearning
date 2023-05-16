@@ -2,7 +2,8 @@
     <SeshInfo />
     <div class="news-wrapper">
         <h3 class="news-title">News</h3>
-        <p class="news-content">>. We are still currently under development! Latest updates and progress will be posted here.</p>
+        <p class="news-content">>. We are still currently under development! Latest updates and progress will
+            be posted here. Please visit the contact page if you have any feedback for us!</p>
     </div>
 </template>
 

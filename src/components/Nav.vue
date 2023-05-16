@@ -2,6 +2,7 @@
     <div class="nav-wrapper">
         <router-link class="link" to="/">Home</router-link>
         <router-link class="link" to="/news">News</router-link>
+        <router-link class="link" to="/contact">Contact</router-link>
     </div>
 </template>
 
