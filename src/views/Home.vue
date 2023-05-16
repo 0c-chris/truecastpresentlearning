@@ -2,7 +2,8 @@
     <SeshInfo />
     <div class="home-wrapper">
         <h3 class="home-title">Welcome, and lets get started!</h3>
-        <p class="home-content">Copy the session link to the right and send it to all desired participants.</p>
+        <p class="home-content">Copy the session link to the right and send it to all desired participants.<br/>
+        When ready, press the join button and your presentation will begin on all connected devices!</p>
     </div>
 </template>
 
