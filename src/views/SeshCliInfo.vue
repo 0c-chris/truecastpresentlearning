@@ -3,11 +3,19 @@
         <h3 class="link-title">Link: </h3>
         <a class="info-link" href="https://sweaty-server.onrender.com">https://sweaty-server.onrender.com</a>
     </div>
+    <Button class="join-button" Name="Join!" />
+
 </template>
 
 <script>
+
+ import Button from "./../components/Button"
+
  export default {
      name: "SeshInfo",
+     components: {
+         Button,
+     }
  }
 </script>
 
@@ -40,5 +48,25 @@
  .info-link:hover {
      text-decoration: underline;
      cursor: pointer;
+ }
+
+ .join-button {
+     position: relative;
+     top: 6.5vh;
+     right: 40vw;
+     width: 15vw;
+     padding: 1vh 0;
+     background-color: black;
+     border: none;
+     border-bottom: 1px solid #4af626;
+     border-radius: 5px;
+     color: #4af626;
+     font-size: 1rem;
+     font-weight: bold;
+ }
+
+ .join-button:hover {
+     cursor: pointer;
+     box-shadow: 5px 5px 5px #4af626;
  }
 </style>

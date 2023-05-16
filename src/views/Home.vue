@@ -2,6 +2,7 @@
     <SeshInfo />
     <div class="home-wrapper">
         <h3 class="home-title">Welcome, and lets get started!</h3>
+        <p class="home-content">Copy the session link to the right and send it to all desired participants.</p>
     </div>
 </template>
 
@@ -21,6 +22,7 @@
  .home-wrapper {
      position: relative;
      width: 50vw;
+     top: -3.5vh;
      left: 46vw;
      border: 1px solid #4af626;
      border-radius: 5px;
@@ -31,5 +33,9 @@
  .home-title {
      color: #4af626;
      font-size: 1.3rem;
+ }
+
+ .home-content {
+     color: #4af626;
  }
 </style>

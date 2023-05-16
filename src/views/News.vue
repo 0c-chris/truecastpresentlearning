@@ -21,7 +21,8 @@
 <style scoped>
  .news-wrapper {
      position: relative;
-     width: 50vw;
+     width: 49vw;
+     top: -3.5vh;
      left: 45vw;
      background-color: black;
      border: 1px solid #4af626;
